@@ -1,0 +1,13 @@
+192.168.1.50 - - [21/Oct/2026:10:00:01 +0000] "GET /index.html HTTP/1.1" 200 1024
+192.168.1.50 - - [21/Oct/2026:10:00:15 +0000] "GET /assets/style.css HTTP/1.1" 200 405
+10.0.0.14 - - [21/Oct/2026:10:05:22 +0000] "POST /login HTTP/1.1" 401 220
+10.0.0.14 - - [21/Oct/2026:10:05:25 +0000] "POST /login HTTP/1.1" 401 220
+10.0.0.14 - - [21/Oct/2026:10:05:28 +0000] "POST /login HTTP/1.1" 401 220
+10.0.0.14 - - [21/Oct/2026:10:05:31 +0000] "POST /login HTTP/1.1" 401 220
+10.0.0.14 - - [21/Oct/2026:10:05:35 +0000] "POST /login HTTP/1.1" 401 220
+10.0.0.14 - - [21/Oct/2026:10:05:40 +0000] "POST /login HTTP/1.1" 401 220
+45.12.89.10 - - [21/Oct/2026:11:15:00 +0000] "GET /products.php?id=1%20UNION%20SELECT%20null,username,password%20FROM%20users HTTP/1.1" 500 512
+45.12.89.10 - - [21/Oct/2026:11:16:12 +0000] "GET /download?file=../../../../etc/passwd HTTP/1.1" 403 150
+185.220.101.5 - - [21/Oct/2026:12:01:05 +0000] "GET /search?q=<script>alert(document.cookie)</script> HTTP/1.1" 200 3210
+185.220.101.5 - - [21/Oct/2026:12:02:11 +0000] "GET /.env HTTP/1.1" 404 180
+185.220.101.5 - - [21/Oct/2026:12:02:15 +0000] "GET /phpmyadmin/index.php HTTP/1.1" 404 180
